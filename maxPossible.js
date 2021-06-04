@@ -11,8 +11,8 @@ maxPossible(8732, 91255) ➞ 9755
 
 */
 
-function maxPossible(num1, num2) {
-  let arr1 = String(num1).split("");
+function maxPossible(num, num2) {
+  let arr1 = String(num).split("");
 
   let arr2 = String(num2)
     .split("")
